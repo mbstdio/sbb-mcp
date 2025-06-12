@@ -424,5 +424,4 @@ async function main() {
 main().catch((err) => {
 	console.error("Error initializing MCP server:\n");
 	console.error(`${err.message}\n`);
-	process.exit(1);
 });

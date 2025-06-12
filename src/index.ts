@@ -410,7 +410,7 @@ async function main() {
 	await server.connect(transport);
 
 	const cleanup = async () => {
-		console.log("\n⚠️ Shutting down MCP server...");
+		console.error("\n⚠️ Shutting down MCP server...");
 		await transport.close();
 		process.exit(0);
 	};

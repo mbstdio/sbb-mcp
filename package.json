@@ -1,7 +1,7 @@
 {
-	"name": "@mbstudio/cff-mcp",
+	"name": "@mbstudio/sbb-mcp",
 	"version": "1.0.0",
-	"description": "A simple MCP for the CFF/SBB train journey planner",
+	"description": "A MCP (Model Context Protocol) server for the Swiss Federal Railways",
 	"homepage": "https://github.com/mbstdio/sbb-mcp",
 	"main": "index.js",
 	"scripts": {

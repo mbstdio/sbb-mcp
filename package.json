@@ -9,11 +9,23 @@
 		"prepare": "npm run build",
 		"dev": "tsc --watch"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"mcp",
+		"model context protocol",
+		"sbb",
+		"cff",
+		"ffs",
+		"swiss federal railways",
+		"server"
+	],
+	"author": "Killian Tornese (@dodo021)",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mbstdio/sbb-mcp.git"
+	},
 	"bin": {
-		"whois-mcp": "dist/index.js"
+		"sbb-mcp": "dist/index.js"
 	},
 	"devDependencies": {
 		"@types/node": "^24.0.0",
@@ -23,5 +35,10 @@
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "^1.12.1",
 		"zod": "^3.25.61"
+	},
+	"release": {
+		"branches": [
+			"main"
+		]
 	}
 }

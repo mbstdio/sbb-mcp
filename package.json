@@ -1,6 +1,6 @@
 {
 	"name": "@mbstudio/sbb-mcp",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A MCP (Model Context Protocol) server for the Swiss Federal Railways",
 	"homepage": "https://github.com/mbstdio/sbb-mcp",
 	"type": "module",
